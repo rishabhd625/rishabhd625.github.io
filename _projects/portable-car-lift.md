@@ -40,10 +40,13 @@ description: >-
   <h2 class="section-heading r">Two extremes, nothing in between</h2>
   <div class="gap-spectrum r">
     <div class="gap-extreme">
-      <p class="gap-extreme-label">Existing Option A</p>
-      <p class="gap-extreme-name">Adjustable Steps</p>
-      <p class="gap-extreme-desc">Lower the entry point, but still require the user to step up under their own power — no help for non-weight-bearers or those with limited leg strength.</p>
-      <span class="gap-extreme-flaw">✕ Still requires leg lift</span>
+      <img class="gap-extreme-img" src="/assets/images/car-lift/adaptedstep.png" alt="Adapted step example" loading="lazy" />
+      <div class="gap-extreme-body">
+        <p class="gap-extreme-label">Existing Option A</p>
+        <p class="gap-extreme-name">Adjustable Steps</p>
+        <p class="gap-extreme-desc">Lower the entry point, but still require the user to step up under their own power — no help for non-weight-bearers or those with limited leg strength.</p>
+        <span class="gap-extreme-flaw">✕ Still requires leg lift</span>
+      </div>
     </div>
     <div class="gap-middle">
       <p class="gap-middle-label">Our Approach</p>
@@ -51,10 +54,13 @@ description: >-
       <span class="gap-middle-badge">⟵ The gap we're filling ⟶</span>
     </div>
     <div class="gap-extreme">
-      <p class="gap-extreme-label">Existing Option B</p>
-      <p class="gap-extreme-name">Body Slings</p>
-      <p class="gap-extreme-desc">Effective for full transfers but require a trained caregiver to operate, are expensive, and aren't designed for everyday personal use.</p>
-      <span class="gap-extreme-flaw">✕ Requires a caregiver</span>
+      <img class="gap-extreme-img" src="/assets/images/car-lift/bodysling.png" alt="Body sling example" loading="lazy" />
+      <div class="gap-extreme-body">
+        <p class="gap-extreme-label">Existing Option B</p>
+        <p class="gap-extreme-name">Body Slings</p>
+        <p class="gap-extreme-desc">Effective for full transfers but require a trained caregiver to operate, are expensive, and aren't designed for everyday personal use.</p>
+        <span class="gap-extreme-flaw">✕ Requires a caregiver</span>
+      </div>
     </div>
   </div>
   <p class="problem-text r">
@@ -159,18 +165,6 @@ description: >-
         <p class="constraint-name">Semi-Independent Use</p>
         <p class="constraint-desc">Safe enough for someone with limited balance to operate without a dedicated caregiver, which is the whole point.</p>
       </div>
-    </div>
-  </div>
-</section>
-
-<!-- ── IMAGE PLACEHOLDERS ──────────────────────────────────── -->
-<section class="proj-section">
-  <p class="section-eyebrow r">Figures</p>
-  <h2 class="section-heading r">CAD & Concept Visuals</h2>
-  <div class="img-gallery">
-    <div class="img-slot has-img r">
-      <img src="/assets/images/car-lift/existing-solutions-diagram.png" alt="Existing solutions gap diagram" loading="lazy" />
-      <p class="img-caption">Existing solutions spectrum — adjustable step (left) · our approach (center) · body sling (right)</p>
     </div>
   </div>
 </section>
