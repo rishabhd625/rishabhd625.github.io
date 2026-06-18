@@ -69,37 +69,19 @@ description: >-
   <p class="section-eyebrow r">Our Approach</p>
   <h2 class="section-heading r">Adapted scissor lift — portable, platform-based transfer</h2>
   <p class="problem-text r" style="margin-bottom: 1.75rem;">
-    Our current concept centers on an <strong>adapted scissor lift mechanism</strong> that raises a person
-    from ground level to car seat height, enabling a low-exertion lateral transfer. The design supports
-    two transfer modes: standing users step onto the platform and ride it up, while seated users use
-    a foldable seat attachment and horizontal transfer board to slide across without bearing weight.
+    The core concept is an <strong>adapted scissor lift</strong> that raises a person from ground level to
+    car seat height for a low-exertion lateral transfer. It supports two modes — standing and seated —
+    in a single portable unit that folds flat for transport.
   </p>
-  <div class="features-grid">
-    <div class="feature-card r">
-      <div class="feature-icon">🦯</div>
-      <p class="feature-name">Standing Platform + Handles</p>
-      <p class="feature-desc">Primary surface with stability handles. User steps on, holds the handles, and rides up to seat height before transferring laterally.</p>
-    </div>
-    <div class="feature-card r">
-      <div class="feature-icon">🪑</div>
-      <p class="feature-name">Modular Foldable Seat</p>
-      <p class="feature-desc">Attaches to the platform for users who can't stand. Folds away when not needed so the device works for both standing and seated transfers.</p>
-    </div>
-    <div class="feature-card r">
-      <div class="feature-icon">↔️</div>
-      <p class="feature-name">Horizontal Transfer Board</p>
-      <p class="feature-desc">Bridges the platform to the car seat at the same height, allowing a smooth lateral slide without a lift or step for seated users.</p>
-    </div>
-    <div class="feature-card r">
-      <div class="feature-icon">⚙️</div>
-      <p class="feature-name">Swivel Leveling Feet</p>
-      <p class="feature-desc">Adjust independently to keep the platform stable on uneven parking lots and curb cuts — a constraint that came directly from user interviews.</p>
-    </div>
-    <div class="feature-card r">
-      <div class="feature-icon">🚗</div>
-      <p class="feature-name">Folds Flat for Transport</p>
-      <p class="feature-desc">The entire unit folds down and fits in a car trunk. Integrated wheels let users roll it to the car door without carrying it.</p>
-    </div>
+
+  <div class="proj-img-wrap r">
+    <img class="proj-img" src="/assets/images/car-lift/scissorlift-diagram.png" alt="Scissor lift concept diagram with labeled components" />
+    <p class="proj-img-caption">Concept diagram — scissor lift assembly with key components labeled</p>
+  </div>
+
+  <div class="proj-img-wrap r">
+    <img class="proj-img" src="/assets/images/car-lift/standingvssitting.png" alt="Standing mode vs seated transfer mode comparison" />
+    <p class="proj-img-caption">Two transfer modes — standing platform (left) and seated transfer with foldable seat + horizontal transfer board (right)</p>
   </div>
 </section>
 
@@ -186,20 +168,6 @@ description: >-
   <p class="section-eyebrow r">Figures</p>
   <h2 class="section-heading r">CAD & Concept Visuals</h2>
   <div class="img-gallery">
-    <div class="img-slot r">
-      <div class="img-slot-icon">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
-      </div>
-      <p class="img-slot-label">Full CAD Assembly</p>
-      <p class="img-slot-sub">Labeled: platform · handles · swivel feet · wheels · folded view</p>
-    </div>
-    <div class="img-slot r">
-      <div class="img-slot-icon">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
-      </div>
-      <p class="img-slot-label">Standing vs. Seated Mode</p>
-      <p class="img-slot-sub">Platform only vs. foldable seat + transfer board side by side</p>
-    </div>
     <div class="img-slot r">
       <div class="img-slot-icon">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
