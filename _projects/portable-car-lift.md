@@ -168,12 +168,9 @@ description: >-
   <p class="section-eyebrow r">Figures</p>
   <h2 class="section-heading r">CAD & Concept Visuals</h2>
   <div class="img-gallery">
-    <div class="img-slot r">
-      <div class="img-slot-icon">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
-      </div>
-      <p class="img-slot-label">Existing Solutions Gap Diagram</p>
-      <p class="img-slot-sub">Adjustable step (left) · our approach (center) · body sling (right)</p>
+    <div class="img-slot has-img r">
+      <img src="/assets/images/car-lift/existing-solutions-diagram.png" alt="Existing solutions gap diagram" loading="lazy" />
+      <p class="img-caption">Existing solutions spectrum — adjustable step (left) · our approach (center) · body sling (right)</p>
     </div>
   </div>
 </section>
