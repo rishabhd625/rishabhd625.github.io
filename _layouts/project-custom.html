@@ -695,6 +695,92 @@
       box-shadow: 0 6px 22px rgba(91,141,239,0.35);
     }
 
+    /* ── PROTOTYPE ITERATION CARDS ────────────────── */
+    .proto-list {
+      display: grid;
+      gap: 1.25rem;
+    }
+    .proto-card {
+      background: var(--bg-2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      transition: border-color 0.2s;
+    }
+    .proto-card:hover { border-color: rgba(91,141,239,0.25); }
+
+    .proto-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      margin-bottom: 0.85rem;
+    }
+    .proto-num {
+      font-size: 0.68rem;
+      font-weight: 800;
+      letter-spacing: 0.1em;
+      color: var(--accent);
+      background: var(--accent-dim);
+      border: 1px solid rgba(91,141,239,0.2);
+      border-radius: 6px;
+      padding: 0.25rem 0.6rem;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    .proto-name {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 0.15rem;
+    }
+    .proto-change {
+      font-size: 0.78rem;
+      color: var(--accent);
+      font-weight: 500;
+    }
+    .proto-desc {
+      font-size: 0.87rem;
+      color: var(--muted);
+      line-height: 1.72;
+      margin-bottom: 1.1rem;
+    }
+    .proto-stats {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .proto-stat {
+      background: var(--bg-3);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.6rem 1rem;
+      text-align: center;
+      min-width: 80px;
+    }
+    .proto-stat-dim { opacity: 0.45; }
+    .proto-stat-num {
+      font-size: 1.4rem;
+      font-weight: 800;
+      letter-spacing: -0.04em;
+      line-height: 1;
+      background: linear-gradient(135deg, var(--accent) 30%, var(--accent-2) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 0.2rem;
+    }
+    .proto-stat-dim .proto-stat-num {
+      background: none;
+      -webkit-text-fill-color: var(--muted);
+    }
+    .proto-stat-label {
+      font-size: 0.68rem;
+      font-weight: 600;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
     /* ── FULL-WIDTH PROJECT IMAGE ─────────────────── */
     .proj-img {
       width: 100%;
