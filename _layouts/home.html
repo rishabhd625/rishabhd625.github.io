@@ -334,6 +334,35 @@
     }
     .exp-desc strong { color: var(--text); font-weight: 600; }
 
+    .exp-date {
+      font-size: 0.78rem;
+      font-weight: 400;
+      color: var(--muted);
+      margin-left: 0.5rem;
+    }
+
+    .exp-bullets {
+      list-style: none;
+      margin: 0.4rem 0 0;
+      padding: 0;
+      display: grid;
+      gap: 0.35rem;
+    }
+    .exp-bullets li {
+      font-size: 0.88rem;
+      color: var(--muted);
+      line-height: 1.65;
+      padding-left: 1.1rem;
+      position: relative;
+    }
+    .exp-bullets li::before {
+      content: '–';
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+    }
+    .exp-bullets li strong { color: var(--text); font-weight: 600; }
+
     .chip-row {
       display: flex;
       flex-wrap: wrap;
@@ -522,10 +551,11 @@
 <nav id="navbar">
   <a href="#" class="nav-logo">R<span>.</span>D</a>
   <ul class="nav-links" id="navLinks">
-    <li><a href="#about"     onclick="closeNav()">About</a></li>
-    <li><a href="/projects/" onclick="closeNav()">Projects</a></li>
-    <li><a href="#education" onclick="closeNav()">Education</a></li>
-    <li><a href="#contact"   onclick="closeNav()">Contact</a></li>
+    <li><a href="#about"      onclick="closeNav()">About</a></li>
+    <li><a href="#experience" onclick="closeNav()">Experience</a></li>
+    <li><a href="/projects/"  onclick="closeNav()">Projects</a></li>
+    <li><a href="#education"  onclick="closeNav()">Education</a></li>
+    <li><a href="#contact"    onclick="closeNav()">Contact</a></li>
   </ul>
   <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
     <span></span><span></span><span></span>
@@ -574,6 +604,98 @@
   </p>
 </section>
 
+
+<!-- ══════════════════════ EXPERIENCE ══════════════════════ -->
+<section id="experience" class="section">
+  <p class="eyebrow r">Experience</p>
+  <h2 class="section-title r">What I've built</h2>
+  <div class="rule r"></div>
+  <div class="exp-list">
+
+    <div class="exp-card r">
+      <div class="exp-icon">⚗️</div>
+      <div>
+        <p class="exp-org">Engineered Living Materials Institute &middot; Ithaca, NY</p>
+        <p class="exp-role">Undergraduate Research Member <span class="exp-date">Aug 2025 &ndash; Present</span></p>
+        <ul class="exp-bullets">
+          <li>Design and manufacture micro-robot for novel chemical-based control system for multi-robot coordination for future search-and-rescue capabilities</li>
+          <li>Co-developed complete CAD assembly in Fusion 360 for V0 chassis and internal components, optimized for 3D printing and rapid assembly</li>
+          <li>Developed initial run &amp; tumble algorithm to validate component integration and pathfinding logic, ensuring reliable robot navigation before hardware finalization</li>
+          <li>Simulated chemical diffusion and biological sensor response time lag using finite difference method (FDM) in Python</li>
+        </ul>
+        <div class="chip-row">
+          <span class="chip">Fusion 360</span>
+          <span class="chip">Python</span>
+          <span class="chip">FDM Simulation</span>
+          <span class="chip">Multi-robot Systems</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="exp-card r">
+      <div class="exp-icon">🚀</div>
+      <div>
+        <p class="exp-org">Liquid Propulsion at Cornell (LPC) &middot; Ithaca, NY</p>
+        <p class="exp-role">Turbopump Subteam Lead <span class="exp-date">Aug 2025 &ndash; Present</span></p>
+        <ul class="exp-bullets">
+          <li>Organize and delegate tasks across a 3-person subteam to develop a liquid-propellant turbopump for engine system integration</li>
+          <li>Design turbine to withstand operating conditions of 25,000 RPM with blades sized for required power output</li>
+          <li>Validate component structural integrity and fluid power efficiency using FEA and CFD simulations</li>
+        </ul>
+        <div class="chip-row">
+          <span class="chip">Ansys FEA</span>
+          <span class="chip">CFD</span>
+          <span class="chip">Fusion 360</span>
+          <span class="chip">Turbomachinery</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="exp-card r">
+      <div class="exp-icon">♿</div>
+      <div>
+        <p class="exp-org">Cornell Assistive Technologies &middot; Ithaca, NY</p>
+        <p class="exp-role">Engineering Subteam Lead <span class="exp-date">Mar 2026 &ndash; Present</span></p>
+        <ul class="exp-bullets">
+          <li>Leading 5-person team to design and implement a mechanical lift to aid those with disabilities to get into their car</li>
+        </ul>
+        <p class="exp-role" style="margin-top:0.75rem;">Mechanical Engineering Subteam Member <span class="exp-date">Nov 2024 &ndash; Present</span></p>
+        <ul class="exp-bullets">
+          <li>Engineered a tactile coding system by adapting Microsoft MakeCode syntax into a library of 3D-printed blocks with embedded Braille, enabling visually impaired students to learn programming</li>
+          <li>Received <strong>2nd place at RESNA student design challenge</strong>, an assistive technologies competition at the Abilities International Professional Conference</li>
+          <li>CAD modeled a compact enclosure for a sensory overload watch in Fusion 360, optimizing for electronics protection, user comfort, and wearability</li>
+          <li>Modified ride-on toy cars using soldering and hand tools, improving accessibility for 5+ children</li>
+        </ul>
+        <div class="chip-row">
+          <span class="chip">DFM / DFA</span>
+          <span class="chip">Fusion 360</span>
+          <span class="chip">3D Printing</span>
+          <span class="chip">Soldering</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="exp-card r">
+      <div class="exp-icon">🛰️</div>
+      <div>
+        <p class="exp-org">ASTRA Lab &middot; Ithaca, NY</p>
+        <p class="exp-role">Undergraduate Research Assistant <span class="exp-date">Jan 2025 &ndash; May 2025</span></p>
+        <ul class="exp-bullets">
+          <li>Analyzed electrospray thruster data with MATLAB &amp; custom Python code for improved efficiency</li>
+          <li>Built interactive Python GUI to streamline experimental data analysis and aid usability for researchers</li>
+          <li>Modeled and prototyped mounting plate and stand in Fusion 360 for water jetting</li>
+        </ul>
+        <div class="chip-row">
+          <span class="chip">MATLAB</span>
+          <span class="chip">Python</span>
+          <span class="chip">GUI Dev</span>
+          <span class="chip">Fusion 360</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
 
 <!-- ══════════════════════ EDUCATION ══════════════════════ -->
 <section id="education" class="section">
