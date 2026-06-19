@@ -33,7 +33,7 @@ description: >-
   </p>
 
   <div class="proj-img-wrap r" style="margin-top: 1.75rem;">
-    <img class="proj-img" src="/assets/images/drone/DroneAssembled.png" alt="Fully assembled 3D printed quadcopter in grass" loading="lazy" />
+    <img class="proj-img" src="/assets/images/drone/DroneAssembled.jpg" alt="Fully assembled 3D printed quadcopter in grass" loading="lazy" />
     <p class="proj-img-caption">Finished quadcopter — fully 3D-printed frame, arms, cover, and payload bay</p>
   </div>
 </section>
@@ -116,7 +116,7 @@ description: >-
   </ul>
 
   <div class="proj-img-wrap r" style="margin-top: 1.5rem;">
-    <img class="proj-img" src="/assets/images/drone/FlightController.png" alt="TAKER G4 AIO flight controller with soldered connections" loading="lazy" />
+    <img class="proj-img" src="/assets/images/drone/FlightController.jpg" alt="TAKER G4 AIO flight controller with soldered connections" loading="lazy" />
     <p class="proj-img-caption">TAKER G4 AIO — hand-soldered motor leads, power connections, and ExpressLRS EP1 receiver wiring</p>
   </div>
 </section>

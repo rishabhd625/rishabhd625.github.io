@@ -34,7 +34,7 @@ description: >-
   </p>
 
   <div class="proj-img-wrap r" style="margin-top: 1.75rem;">
-    <img class="proj-img" src="/assets/images/botbuddy/BotBuddyV0Robot.png" alt="BotBuddy V0 rover — Raspberry Pi, motor driver, camera, wiring visible" loading="lazy" />
+    <img class="proj-img" src="/assets/images/botbuddy/BotBuddy.png" alt="BotBuddy V0 rover — Raspberry Pi, motor driver, camera, wiring visible" loading="lazy" />
     <p class="proj-img-caption">BotBuddy V0 — Raspberry Pi 3 Model B, TB6612FNG motor driver, DC gear motors, and camera module</p>
   </div>
 </section>
@@ -121,7 +121,7 @@ description: >-
   </ul>
 
   <div class="proj-img-wrap r">
-    <img class="proj-img" src="/assets/images/botbuddy/BotBuddyWebInterface.png" alt="BotBuddy web control interface showing live video feed and arrow key controls" loading="lazy" />
+    <img class="proj-img" src="/assets/images/botbuddy/BotBuddy_WebUI.png" alt="BotBuddy web control interface showing live video feed and arrow key controls" loading="lazy" />
     <p class="proj-img-caption">Flask control interface — live camera feed with on-screen movement controls, accessible via Ngrok public URL</p>
   </div>
 </section>
