@@ -32,7 +32,7 @@ description: >-
     and unpredictable revenue loss with no reliable mechanical solution on the market.
   </p>
   <div class="proj-img-wrap r">
-    <img class="proj-img" src="/assets/images/slf-filtration/filtration-sequence.png" alt="Filtration sequence diagram" loading="lazy" />
+    <img class="proj-img" src="/assets/images/slf-filtration/FiltrationSequenceDiagram.png" alt="Filtration sequence diagram" loading="lazy" />
     <p class="proj-img-caption">Filtration sequence — grapes (blue) sink, SLF (white) float, enabling physical separation</p>
   </div>
 </section>
@@ -73,12 +73,12 @@ description: >-
   </div>
 
   <div class="proj-img-wrap r" style="margin-top: 1.75rem;">
-    <img class="proj-img" src="/assets/images/slf-filtration/base-sketch.png" alt="Annotated sketch of the tri-sector base" loading="lazy" />
+    <img class="proj-img" src="/assets/images/slf-filtration/BaseLabeledSketch.png" alt="Annotated sketch of the tri-sector base" loading="lazy" />
     <p class="proj-img-caption">Base component — solid (left), mesh (center), open (right) tri-sector layout</p>
   </div>
   <div class="proj-img-wrap r">
-    <img class="proj-img" src="/assets/images/slf-filtration/assembly-sketch.png" alt="Annotated sketch of full functional prototype" loading="lazy" />
-    <p class="proj-img-caption">Full assembly — handle, shaft, bearing, rotating base, and housing</p>
+    <img class="proj-img" src="/assets/images/slf-filtration/FullAssemblySketch.png" alt="Annotated sketch of full functional prototype" loading="lazy" />
+    <p class="proj-img-caption">Full assembly sketch — handle, shaft, bearing, rotating base, and housing</p>
   </div>
 </section>
 
@@ -86,11 +86,16 @@ description: >-
 <section class="proj-section">
   <p class="section-eyebrow r">Design Iteration</p>
   <h2 class="section-heading r">Three prototypes, three problems solved</h2>
-  <p class="problem-text r" style="margin-bottom: 2rem;">
+  <p class="problem-text r" style="margin-bottom: 1.5rem;">
     Each version was built to a specific hypothesis, tested against three repeatable
     mechanical tests — rotation smoothness, water retention time, and max supported weight —
     then iterated based on what failed.
   </p>
+
+  <div class="proj-img-wrap r" style="margin-bottom: 2rem;">
+    <img class="proj-img" src="/assets/images/slf-filtration/FullAssemblyCADCrossSection.png" alt="Full CAD assembly cross-section" loading="lazy" />
+    <p class="proj-img-caption">CAD assembly cross-section — shaft, bearing, hex press-fit, tri-sector base, and housing</p>
+  </div>
 
   <div class="proto-list">
 
@@ -134,9 +139,15 @@ description: >-
           <p class="proto-stat-label">Max Load</p>
         </div>
       </div>
-      <div class="proj-img-wrap r" style="margin-top: 1rem; margin-bottom: 0;">
-        <img class="proj-img" src="/assets/images/slf-filtration/prototype-improvements.png" alt="O-ring, rubber flaps, and base support improvements" loading="lazy" />
-        <p class="proj-img-caption">Sealing additions — O-ring groove, rubber divider flaps between sectors</p>
+      <div class="img-gallery r" style="margin-top: 1rem;">
+        <div class="img-slot has-img">
+          <img src="/assets/images/slf-filtration/O-ring.png" alt="O-ring groove on base perimeter" loading="lazy" />
+          <p class="img-caption">O-ring groove — seals base perimeter against housing</p>
+        </div>
+        <div class="img-slot has-img">
+          <img src="/assets/images/slf-filtration/RubberFlaps.png" alt="Rubber divider flaps between sectors" loading="lazy" />
+          <p class="img-caption">Rubber divider flaps — isolate solid, mesh, and open sectors</p>
+        </div>
       </div>
     </div>
 
@@ -159,21 +170,21 @@ description: >-
           <p class="proto-stat-label">Max Load</p>
         </div>
       </div>
-      <div class="proj-img-wrap r" style="margin-top: 1rem; margin-bottom: 0;">
-        <img class="proj-img" src="/assets/images/slf-filtration/final-prototype.png" alt="Final physical prototype" loading="lazy" />
-        <p class="proj-img-caption">Final prototype — bearing support, full sealing, functional rotation</p>
+      <div class="proj-img-wrap r" style="margin-top: 1rem; margin-bottom: 0.75rem;">
+        <img class="proj-img" src="/assets/images/slf-filtration/BaseSupport.png" alt="Bearing and shaft collar support beneath base" loading="lazy" />
+        <p class="proj-img-caption">Bearing + shaft collar — distributes load directly beneath the rotating base</p>
+      </div>
+      <div class="proj-img-wrap r" style="margin-bottom: 0;">
+        <img class="proj-img" src="/assets/images/slf-filtration/FullAssemblyPhysical.png" alt="Final physical prototype" loading="lazy" />
+        <p class="proj-img-caption">Final prototype — full assembly with bearing support, sealing, and functional rotation</p>
       </div>
     </div>
 
   </div>
 
   <div class="proj-img-wrap r" style="margin-top: 2rem;">
-    <img class="proj-img" src="/assets/images/slf-filtration/cad-assembly.png" alt="Full CAD assembly cross-section" loading="lazy" />
-    <p class="proj-img-caption">CAD assembly cross-section — shaft, bearing, hex press-fit, tri-sector base, housing</p>
-  </div>
-  <div class="proj-img-wrap r">
-    <img class="proj-img" src="/assets/images/slf-filtration/water-retention-test.png" alt="Water retention test setup" loading="lazy" />
-    <p class="proj-img-caption">Water retention test — timed seal performance across prototype versions</p>
+    <img class="proj-img" src="/assets/images/slf-filtration/WaterRetentionTest.png" alt="Water retention test setup" loading="lazy" />
+    <p class="proj-img-caption">Water retention test — timed seal performance across all three prototype versions</p>
   </div>
 </section>
 
