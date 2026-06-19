@@ -193,9 +193,18 @@ description: >-
 
 <!-- ── AWARD ──────────────────────────────── -->
 <section class="proj-section">
-  <div class="proj-img-wrap r" style="margin-bottom: 0;">
+  <p class="section-eyebrow r">Recognition</p>
+  <h2 class="section-heading r">2nd Place — RESNA 2026 Student Design Challenge</h2>
+  <p class="problem-text r">
+    The team presented Tactile Coding Blocks at the <strong>RESNA 2026 Annual Conference</strong>
+    (Abilities International, Toronto) in the Student Design Challenge — a national competition
+    for student-built assistive technology. Out of teams from universities across the country,
+    we placed <strong>2nd overall</strong>. The judges highlighted the project's low cost,
+    real-world testability, and the directness of the solution to a gap in accessible CS education.
+  </p>
+  <div class="proj-img-wrap r" style="margin-top: 1.5rem; margin-bottom: 0;">
     <img class="proj-img" src="/assets/images/tactile-blocks/RESNA2026TeamPhoto.png" alt="RESNA 2026 team photo" loading="lazy" />
-    <p class="proj-img-caption">RESNA 2026 Student Design Challenge — 2nd place, Abilities International Conference</p>
+    <p class="proj-img-caption">RESNA 2026 Student Design Challenge — 2nd place, Abilities International Conference, Toronto</p>
   </div>
 </section>
 
