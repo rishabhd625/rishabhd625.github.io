@@ -72,14 +72,6 @@ description: >-
     </div>
   </div>
 
-  <div class="proj-img-wrap r" style="margin-top: 1.75rem;">
-    <img class="proj-img" src="/assets/images/slf-filtration/BaseLabeledSketch.png" alt="Annotated sketch of the tri-sector base" loading="lazy" />
-    <p class="proj-img-caption">Base component — solid (left), mesh (center), open (right) tri-sector layout</p>
-  </div>
-  <div class="proj-img-wrap r">
-    <img class="proj-img" src="/assets/images/slf-filtration/FullAssemblySketch.png" alt="Annotated sketch of full functional prototype" loading="lazy" />
-    <p class="proj-img-caption">Full assembly sketch — handle, shaft, bearing, rotating base, and housing</p>
-  </div>
 </section>
 
 <!-- ── DESIGN ITERATION ──────────────────────────────────── -->
@@ -199,7 +191,7 @@ description: >-
     </li>
     <li class="r">
       <span class="reflection-bullet"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="2 5 4.2 7.2 8 3"/></svg></span>
-      <span>Working directly with outside clients — Cornell CALS, Gallo, National Grape — meant the constraints were real: <strong>no electrical power, low cost, simple enough to use in the field</strong>. Designing within those boundaries from day one shaped every decision.</span>
+      <span>Working directly with outside clients — Cornell CALS, Gallo, National Grape — meant the constraints were real: <strong>low cost, food-safe, simple enough to use in the field</strong>. Designing within those boundaries from day one shaped every decision.</span>
     </li>
     <li class="r">
       <span class="reflection-bullet"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="2 5 4.2 7.2 8 3"/></svg></span>
