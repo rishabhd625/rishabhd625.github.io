@@ -43,7 +43,7 @@ description: >-
   <p class="section-eyebrow r">Tools & Skills</p>
   <div class="role-grid">
     <div class="role-card r">
-      <p class="role-title">Mechanical</p>
+      <p class="role-name">Mechanical</p>
       <ul class="role-bullets">
         <li>Custom 3D-printed frame, arms, cover, payload bay</li>
         <li>DFM / DFA design principles</li>
@@ -53,7 +53,7 @@ description: >-
       </ul>
     </div>
     <div class="role-card r">
-      <p class="role-title">Electrical</p>
+      <p class="role-name">Electrical</p>
       <ul class="role-bullets">
         <li>TAKER G4 AIO flight controller</li>
         <li>SunnySky brushless DC motors</li>
@@ -64,7 +64,7 @@ description: >-
       </ul>
     </div>
     <div class="role-card r">
-      <p class="role-title">Software</p>
+      <p class="role-name">Software</p>
       <ul class="role-bullets">
         <li>BetaFlight Configurator</li>
         <li>Flight controller setup & tuning</li>
